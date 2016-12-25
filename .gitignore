@@ -8,3 +8,4 @@
 *.tlog
 /src/windows/SpaceRL.VC.VC.opendb
 *.obj
+*.idb

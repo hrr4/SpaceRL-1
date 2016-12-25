@@ -129,11 +129,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\include\Engine.cpp" />
+    <ClCompile Include="..\Actor.cpp" />
+    <ClCompile Include="..\Engine.cpp" />
     <ClCompile Include="..\main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\include\Actor.hpp" />
     <ClInclude Include="..\..\include\Engine.hpp" />
+    <ClInclude Include="..\Component.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
